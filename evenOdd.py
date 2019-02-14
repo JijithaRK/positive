@@ -1,9 +1,10 @@
  edit  fork	 download  copy
-j=int(input())
-if(j>0):
-	if(j%2==0):
+j=input()
+if j.isnumeric():
+	k=int(j)
+	if k%2==0:
 		print("Even")
-	if(j%2!=0):
+	else:
 		print("Odd")
 else:
-	print("Invalid")
+	print("invalid")
