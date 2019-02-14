@@ -1,11 +1,5 @@
-j=int(input())
-if j%4==0:
-    if j%100==0:
-        if j%400==0:
-            print("yes")
-        else:
-            print("no")
-    else:
-        print("no")
+jr=int(input())
+if(jr%4==0 and jr%100!=0 or jr%400==0):
+    print("yes")
 else:
     print("no")
