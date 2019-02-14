@@ -1,10 +1,8 @@
  edit  fork	 download  copy
-j=input()
-if j.isnumeric():
-	k=int(j)
-	if k%2==0:
-		print("Even")
-	else:
-		print("Odd")
+j1 = float(input())
+if j1 > 0:
+   print("Positive")
+elif j1 == 0:
+   print("Zero")
 else:
-	print("invalid")
+   print("Negative")
