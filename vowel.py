@@ -1,5 +1,5 @@
 b=input()
-if b.isalpha:
+if b.isalpha():
 	x=b.lower()
 	if(x=="a" or x=="e" or  x=="i" or x=="o" or x=="u"):
 		print("Vowel")
